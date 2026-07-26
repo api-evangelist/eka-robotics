@@ -1,7 +1,29 @@
 aid: eka-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eka-robotics.png
 name: Eka Robotics
-description: Eka Robotics is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eka Robotics is a Cambridge, Massachusetts robotics-AI company founded in 2025
+  that is building intelligence for the physical world in its native language:
+  force. Its Vision-Force-Action (VFA) model combines vision, force sensing, and
+  action to give robots generality, performance, and safety for close human-robot
+  interaction. The team pioneers self-supervised robot learning, large-scale robot
+  learning, world models, reinforcement learning, and sim-to-real transfer, drawing
+  talent from MIT, Berkeley, Harvard, DeepMind, and Boston Dynamics. Co-founded by
+  MIT professor Pulkit Agrawal (Improbable AI Lab), the company is an early-stage
+  research-and-hardware venture and does not yet publish a public API, developer
+  portal, SDK, or documentation. This profile was surfaced as a venture-portfolio
+  lead and enriched with the company's public identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/eka-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Machine Learning
+- Reinforcement Learning
+- Robot Learning
+- Hardware
+- Physical AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eka-robotics-domain-security.yml
+- type: Website
+  url: https://ekarobotics.com/
+- type: Careers
+  url: https://jobs.ashbyhq.com/ekarobotics
+- type: X
+  url: https://x.com/EkaRobotics
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eka-robotics/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
